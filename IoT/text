@@ -1,0 +1,11 @@
+        <div>
+            <link rel="image" href="fountain-14-svgrepo-com.svg" type="image/svg+xml">
+            <span>Wakra</span>
+        </div>
+        <div>
+            <button type="menu">Features</button>
+            <button type="button">Pricing</button>
+            <button type="button">Blogs</button>
+            <button type="button">About Wakra</button>
+            <button type="button"><a href="Login page.htm">Login</a> </button>
+        </div>
