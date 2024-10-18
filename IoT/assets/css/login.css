@@ -19,7 +19,7 @@ body, html{
     text-align: center;
     height: 100%;
     box-sizing: border-box;
-    background-image: url(Backgroud.jpg);
+    background-image: url("Backgroud.jpg");
     background-size: cover;
 }
 .right_body{

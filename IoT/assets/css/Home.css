@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Ensures padding doesn't affect layout */
+    background-image: url("homepage.jpg");
+    background-size: cover;  /* Ensures the background image covers the entire body */
+    background-position: center;  /* Centers the background image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-attachment: fixed;  /* Makes the background fixed during scroll */
+}
+
+ul {
+    display: flex;                    /* Use Flexbox to align items horizontally */
+    justify-content: space-between;   /* Distribute items evenly with space between */
+    list-style-type: none;            /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;          /* Background color for the navbar */
+}
+
+ul li {
+    flex: 1;                          /* Each item takes equal space */
+    text-align: center;                /* Center the text within each item */
+}
+
+ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100;
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #575757;         /* Change background on hover */
+}
+.content{
+    width: 50%; /* Adjust width as necessary */
+    max-width: 700px; /* Limit the maximum width */
+    padding: 20px; /* Padding inside the box */
+    text-align: center; /* Center text inside */
+    border: none; /* Light gray border */
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: rgb(0,0,0,0.5);
+    color: mintcream;
+}
+.content h1, h2{
+    text-decoration: underline;
+}
+/*.login_buttons{*/
+/*    margin: 0 auto;*/
+/*    display: block;*/
+/*    width: 20%;*/
+/*    padding: 10px;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*    background-color: rgb(204, 4, 4);*/
+/*}*/
+button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+/* Features Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* Content */
+.content {
+    padding: 40px; /* Increased padding for more emphasis */
+}
+
+/* General Section Styles */
+section {
+    background: none; /* Optional: light background color for visual separation */
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    height: 40px;
+    position: relative;
+}
+.benefit{
+    background: none;
+}
