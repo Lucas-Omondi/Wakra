@@ -19,8 +19,13 @@ body, html{
     text-align: center;
     height: 100%;
     box-sizing: border-box;
-    background-image: url("Backgroud.jpg");
+    background-image: linear-gradient(to left, white 0.1%, transparent), url("Backgroud.jpg");
     background-size: cover;
+    background-blend-mode: screen;
+    /*mask-image: linear-gradient(to right, black 70%, transparent 100%);*/
+    /*-webkit-mask-image: linear-gradient(to right, black 70%, transparent 100%);*/
+}
+
 }
 .right_body{
     float: right;
